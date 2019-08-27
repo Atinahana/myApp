@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Oprasional
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+<ion-list>
+    <ion-item>
+              <ion-label>Pembayaran</ion-label>
+              <ion-select multiple="true" cancelText="Cancel" okText="Oke!">
+                <ion-select-option value="buku">Buku</ion-select-option>
+                <ion-select-option value="pensil">Pensil</ion-select-option>
+                <ion-select-option value="Bolpen">Bolpen</ion-select-option>
+                <ion-select-option value="penghapus">Penghapus</ion-select-option>
+              </ion-select>
+    </ion-item>
+  </ion-list>
+    <ion-item>
+            <ion-label>Nominal</ion-label>
+            <ion-col>
+                <ion-input type="number">Rp.</ion-input>
+            </ion-col>
+    </ion-item>
+    <ion-item>
+        <ion-label position="stacked">Keterangan</ion-label>
+        <ion-textarea rows="10" cols="50" placeholder="Masukkan Keterangan"></ion-textarea>
+    </ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+            <ion-button expand="block">Take Picture</ion-button>
+        </ion-col>
+        <ion-col>
+            <ion-button expand="block">Upload</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+            <ion-button horizontal="bottom" expand="block" href="/tabs/tab3">SIMPAN</ion-button>
+        </ion-card>
+      
+</ion-content> 
+
